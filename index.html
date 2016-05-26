@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
         <title>Crypto Backers;  An ITU study group</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/grayscale.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+        <!--Angular-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+        <script src="https://code.angularjs.org/1.5.5/angular-sanitize.js"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-</head>
+    </head>
 
-<body id="page-top" data-spy="scroll" data-target="#main-nav">
+    <body id="page-top" data-spy="scroll" data-target="#main-nav"  ng-app="bindApp" ng-controller="repeatCtrl as ctrl">
 
-    <!-- Navigation -->
-    <div class="navbar navbar-custom navbar-fixed-top">
-        <div class="container">
-            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav">
-                &#9776;
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            <div class="collapse navbar-toggleable-sm" id="main-nav">
-                <ul class="nav navbar-nav pull-sm-right">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#download">Conference</a>
-                    </li>
- 		 <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+        <!-- Navigation -->
+        <div class="navbar navbar-custom navbar-fixed-top">
+            <div class="container">
+                <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav">
+                    &#9776;
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <div class="collapse navbar-toggleable-sm" id="main-nav">
+                    <ul class="nav navbar-nav pull-sm-right">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#download">Conference</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                 <div class="col-md-8 col-md-offset-2">
+        <!-- Intro Header -->
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
                             <h1 class="brand-heading">Crypto backers</h1>
                             <p class="intro-text">An IT-University based study group</p>
                             <p class="intro-text">Focusing on digital privacy information and education <br>Created by students for all.</p>
                             <a href="#about" class="btn btn-circle page-scroll">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-xs-center">
-        <div class="row">
-                 <div class="col-lg-8 col-lg-offset-2">
+        <!-- About Section -->
+        <section id="about" class="container content-section text-xs-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
                     <h2>About Crypto backers</h2>
                     <p>The digital privacy is threatened by both commercial as well as governmental surveillance. All digital information and traffic is collected, this is why it is important to elucidate in this matter. We host a conference to enlighten students about the data collection, about their digital privacy and how they can regain control of the same.</p>
                 </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-xs-center">
-        <div class="download-section">
-             <div class="container">
+        <!-- Download Section -->
+        <section id="download" class="content-section text-xs-center">
+            <div class="download-section">
+                <div class="container">
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Crypto Conference <small>march 30th. 2016.</small></h2>
                         <p>
@@ -99,80 +102,64 @@
                         </p>
                     </div>
                     <div class="container">
-                        <div class="row speaker">
-                            <div class="col-lg-6">
-                                <h1>Irina Shklovski:<br><small> Is there any data that is actually private?</small></h1>
-                                <p>As an associated professor at ITU, Irina works on several different projects ranging from 
-                                    considering issues of privacy and identity to investigating the role of technology in disaster. 
-                                    She is interested in how people use such technologies to cope with adverse circumstances, 
-                                    to maintain their social relationships and navigate and interact in urban spaces.
-                                </p>
+                        <div class="row speaker" ng-repeat="x in ctrl.vids">
+                            <div ng-if="$even" class="col-lg-6">
+                                <h1>{{x.name}}:<br><small> {{x.title}}</small></h1>
+                                <p>{{x.description}}</p>
                             </div>
                             <div class="col-lg-6">
-                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5q75-c4vOcA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="560" height="315" ng-src="{{x.video|trustAsResourceUrl}}"  frameborder="0" allowfullscreen></iframe>
                             </div>
-                        </div>
-                        <div class="row speaker">
-
-                            <div class="col-lg-6">
-                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ymtBz-KWWEA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-lg-6">
-                                <h1>Pernille Tranberg: <br><small> Personal Data Harvest</small></h1>
-                                <p>
-                                    A journalist who now acts as a dataethics consultant. 
-                                    She is co-founder of DataEthics.eu and a board member of the London-based charity organization CitizenTrust. 
-                                    In 2012, she wrote the bestseller "Fake It" about big data and digital self-defense. 
-                                </p>
+                            <div ng-if="$odd"class="col-lg-6">
+                                <h1>{{x.name}}:<br><small> {{x.title}}</small></h1>
+                                <p>{{x.description}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-xs-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Crypto backers</h2>
-                <p>Feel free to leave us a comment on the <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a> on Start Bootstrap to give some feedback about this theme!</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li class="list-inline-item">
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container content-section text-xs-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Contact Crypto backers</h2>
+                    <p>Feel free to leave us a comment on the <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a> on Start Bootstrap to give some feedback about this theme!</p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
 
-    <!-- Footer -->
-    <footer>
-         <div class="container text-center">
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
                 <p>Copyright &copy; Crypto backers | Theme forked from <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a></p>
             </div>
-    </footer>
+        </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
 
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
-</body>
+        <!-- Custom Theme JavaScript -->
+        <script src="js/grayscale.js"></script>
+    </body>
 
 </html>
