@@ -251,6 +251,12 @@ ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
+@media (min-width: 1200px){
+    div.container {
+    max-width: 1200px;
+}
+}
+
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
     display: block;
@@ -293,5 +299,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
 
 /*# sourceMappingURL=grayscale.css.map */
