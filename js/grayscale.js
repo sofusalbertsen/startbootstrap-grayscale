@@ -41,8 +41,8 @@ app
                                 "title": "Personal Data Harvest",
                                 "description": " A journalist who now acts as a dataethics consultant. She is co-founder of DataEthics.eu and a board member of the London-based charity organization CitizenTrust. In 2012, she wrote the bestseller \"Fake It\" about big data and digital self-defense.",
                                 "video": "https://www.youtube-nocookie.com/embed/ymtBz-KWWEA?rel=0&amp;showinfo=0"
-                            },{
-                                 "name": "Peter Kofod",
+                            }, {
+                                "name": "Peter Kofod",
                                 "title": "Govermental Surveillance",
                                 "description": "Danish journalist and activist. He is deeply engaged in inter-state surveillance and was the first Dane who got an interview with Edward Snowden. He has recently made headlines in the press by uncover the story about an american airplane waiting to catch Mr. Snowden if he travelled from Moscow.",
                                 "video": "https://www.youtube-nocookie.com/embed/FMFEoWxSDbg?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
@@ -78,6 +78,23 @@ app
                                 "video": "https://www.youtube-nocookie.com/embed/wGzKbzAaJkM?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
                             }
                         ];
+                        self.conflinks = [
+                            {"link": "http://www.computerworld.dk/art/236747/pornbots-nsa-og-whistleblowers-tag-med-computerworld-til-krypto-konference",
+                                "from": "Computerworld",
+                            "description":"Pornbots, NSA og whistleblowers: Tag med Computerworld til krypto-konference"},
+                            {"link": "http://www.computerworld.dk/art/236733/eksperternes-dom-udviklerne-skal-ikke-redde-kryptering-det-skal-din-bedstemor",
+                                "from": "Computerworld",
+                            "description":"Eksperternes dom: Udviklerne skal ikke redde kryptering - det skal din bedstemor"},
+                            {"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Fuldt-hus-til-konference-om-internetovervaagning",
+                                "from": "ITU News",
+                                "description": "Fuldt hus til konference om internetovervågning"},
+                            {"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Overvaagning-og-privatliv-paa-nettet",
+                                "from": "ITU News",
+                                "description": "Konference på IT-Universitetet: Overvågning og privatliv på nettet"}
+                            
+
+                        ];
+                        self.otherlinks=[{"link":"http://www.itu.dk/Om-ITU/Presse/Nyheder/Passende-paranoia-til-ITUs-foerste-kryptofest","from":"ITU News","description":"”Passende paranoia” til ITU’s første kryptofest"}];
                     }])
         .filter('trustAsResourceUrl', ['$sce', function ($sce) {
                 return function (val) {

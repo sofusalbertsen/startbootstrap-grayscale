@@ -98,7 +98,9 @@
             <div id="download" class="download-section">
                 <div class="container">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Crypto Conference <small>march 30th. 2016.</small></h2>
+                       
+                        <img id="logo" src="img/Crypto-logo_banner.png" alt="Crypto-logo_banner"/>
+                         <h2>Conference <small>march 30th. 2016.</small></h2>
                         <p>
                             This is the first, but hopefully no the last conference here at the IT University. 
                             The attention we have gathered is more than we could ever have hoped for!
@@ -124,12 +126,26 @@
         </section>
         <section id="education" class="container content-section text-xs-center">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2"></div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>Education</h1>
+                </div>
             </div>
         </section>
         <section id="press" class="container content-section text-xs-center">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2"></div>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>Press</h1>
+                    <div class="col-lg-6">
+                        <p><strong>Conference press</strong></p>
+                        <p ng-repeat="x in ctrl.conflinks"><a href="{{x.link}}">{{x.description}}</a> in <small>{{x.from}}</small></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p><strong>Other press</strong></p>
+                         <p ng-repeat="x in ctrl.otherlinks"><a href="{{x.link}}">{{x.description}}</a> in <small>{{x.from}}</small></p>
+                    </div>
+                    
+
+                </div>
             </div>
         </section>
 
@@ -144,7 +160,7 @@
                             <a href="mailto:sofu@itu.dk" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="mailto:sofu@itu.dk" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                            <a href="mailto:mgev@itu.dk" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
                         </li>
                     </ul>
                 </div>
