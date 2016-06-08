@@ -40,7 +40,7 @@ app
                                 "name": "Pernille Tranberg",
                                 "title": "Personal Data Harvest",
                                 "description": " A journalist who now acts as a dataethics consultant. She is co-founder of DataEthics.eu and a board member of the London-based charity organization CitizenTrust. In 2012, she wrote the bestseller \"Fake It\" about big data and digital self-defense.",
-                                "video": "https://www.youtube-nocookie.com/embed/ymtBz-KWWEA?rel=0&amp;showinfo=0"
+                                "video": "https://www.youtube-nocookie.com/embed/aL_CR-6qEhY?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
                             }, {
                                 "name": "Peter Kofod",
                                 "title": "Govermental Surveillance",
@@ -73,28 +73,34 @@ app
                             },
                             {
                                 "name": "David Simonsen",
-                                "title": "WAYF",
+                                "title": "The battle of protecting infrastructure",
                                 "description": "David Simonsen is manager of the Danish federation WAYF - Where Are You From (at DeIC). David is member of the board of Rådet for Digital Sikkerhed, the Kalmar2 steering committee and was previously member of the DK governments national IT-board as well as the advisory group for the establishment of the Danish Virtual University. David has participated of the public debate of it- and security infrastructure since 2000. David previously co-chaired TERENA tf-mobility and was responsible for the roll-out of eduroam in Denmark.",
                                 "video": "https://www.youtube-nocookie.com/embed/wGzKbzAaJkM?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
+                            },
+                            {
+                                "name": "Panel discussion",
+                                "title": "Questions from the audience to the speaksers",
+                                "description": "From left to right: Henrik Kramshøj, Peter Kofod, Hanno Böck, Irina Schklovski. Moderator: Søren Villebro & Sofus Albertsen.",
+                                "video": "https://www.youtube-nocookie.com/embed/Fy44Xk3Npx8?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
                             }
                         ];
                         self.conflinks = [
                             {"link": "http://www.computerworld.dk/art/236747/pornbots-nsa-og-whistleblowers-tag-med-computerworld-til-krypto-konference",
                                 "from": "Computerworld",
-                            "description":"Pornbots, NSA og whistleblowers: Tag med Computerworld til krypto-konference"},
+                                "description": "Pornbots, NSA og whistleblowers: Tag med Computerworld til krypto-konference"},
                             {"link": "http://www.computerworld.dk/art/236733/eksperternes-dom-udviklerne-skal-ikke-redde-kryptering-det-skal-din-bedstemor",
                                 "from": "Computerworld",
-                            "description":"Eksperternes dom: Udviklerne skal ikke redde kryptering - det skal din bedstemor"},
+                                "description": "Eksperternes dom: Udviklerne skal ikke redde kryptering - det skal din bedstemor"},
                             {"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Fuldt-hus-til-konference-om-internetovervaagning",
                                 "from": "ITU News",
                                 "description": "Fuldt hus til konference om internetovervågning"},
                             {"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Overvaagning-og-privatliv-paa-nettet",
                                 "from": "ITU News",
                                 "description": "Konference på IT-Universitetet: Overvågning og privatliv på nettet"}
-                            
+
 
                         ];
-                        self.otherlinks=[{"link":"http://www.itu.dk/Om-ITU/Presse/Nyheder/Passende-paranoia-til-ITUs-foerste-kryptofest","from":"ITU News","description":"”Passende paranoia” til ITU’s første kryptofest"}];
+                        self.otherlinks = [{"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Passende-paranoia-til-ITUs-foerste-kryptofest", "from": "ITU News", "description": "”Passende paranoia” til ITU’s første kryptofest"}];
                     }])
         .filter('trustAsResourceUrl', ['$sce', function ($sce) {
                 return function (val) {

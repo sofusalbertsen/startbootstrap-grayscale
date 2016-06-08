@@ -9,7 +9,7 @@ body {
   height: 100%;
   font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
-  background-color: black;
+  background-color:rgba(0, 0, 0, 0.85);
   position: relative;
 }
 #logo{
@@ -62,7 +62,7 @@ a:hover, a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Cabin","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .navbar-custom .navbar-brand {
   padding-top: 7px;
@@ -105,7 +105,7 @@ a:hover, a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: rgba(0, 0, 0, 0.85);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -121,7 +121,7 @@ a:hover, a:focus {
     color: #fff;
 }
 .speaker{
-    background-color: #000;
+    background-color: rgba(38, 38, 38, 0.9);
          padding-top:20px;
          margin-top: 10px;
 }
@@ -196,7 +196,7 @@ a:hover, a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/conference.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.85);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -257,6 +257,9 @@ ul.banner-social-buttons {
     div.container {
     max-width: 1200px;
 }
+#conf-date {
+    padding-left: 50px;
+}
 }
 
 @media (max-width: 767px) {
@@ -303,4 +306,6 @@ body {
 }
 
 
+
 /*# sourceMappingURL=grayscale.css.map */
+
