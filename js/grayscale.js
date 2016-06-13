@@ -40,7 +40,7 @@ app
                                 "name": "Pernille Tranberg",
                                 "title": "Personal Data Harvest",
                                 "description": " A journalist who now acts as a dataethics consultant. She is co-founder of DataEthics.eu and a board member of the London-based charity organization CitizenTrust. In 2012, she wrote the bestseller \"Fake It\" about big data and digital self-defense.",
-                                "video": "https://www.youtube-nocookie.com/embed/aL_CR-6qEhY?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
+                                "video": "https://www.youtube-nocookie.com/embed/HWTQnYZli-g?list=PLkShjYhAH7pX453CZaFiBlCA0L6syPnQT&amp;showinfo=0"
                             }, {
                                 "name": "Peter Kofod",
                                 "title": "Govermental Surveillance",
