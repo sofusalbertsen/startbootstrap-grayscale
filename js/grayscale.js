@@ -100,7 +100,13 @@ app
 
 
                         ];
-                        self.otherlinks = [{"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Passende-paranoia-til-ITUs-foerste-kryptofest", "from": "ITU News", "description": "”Passende paranoia” til ITU’s første kryptofest"}];
+                        self.otherlinks = [
+                            {"link": "http://www.itu.dk/Om-ITU/Presse/Nyheder/Passende-paranoia-til-ITUs-foerste-kryptofest", 
+                                "from": "ITU News", 
+                                "description": "”Passende paranoia” til ITU’s første kryptofest"},
+                        {"link": "https://www.dr.dk/tv/se/tv-avisen-med-sporten/tv-avisen-med-sporten-2016-06-10-2#!/00:16:09", 
+                                "from": "DR1 TV-Avis 18:30", 
+                                "description": "Internet - Elever lærer om digital adfærd"}];
                     }])
         .filter('trustAsResourceUrl', ['$sce', function ($sce) {
                 return function (val) {
