@@ -42,11 +42,14 @@
                 <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#main-nav">
                     &#9776;
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Crypto Backers</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Dig.IT</a>
                 <div class="collapse navbar-toggleable-sm" id="main-nav">
                     <ul class="nav navbar-nav pull-sm-right">
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="#events">Events fall-16</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#download">Conference</a>
@@ -71,9 +74,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h1 class="brand-heading">Crypto backers</h1>
+                            <h1 class="brand-heading">Dig.IT</h1>
                             <p class="intro-text">An IT-University based study group</p>
                             <p class="intro-text">Focusing on digital privacy information and education <br>Created by students for all.</p>
+                            
+                            
                             <a href="#about" class="btn btn-circle page-scroll">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>
@@ -87,27 +92,54 @@
         <section id="about" class="container content-section text-xs-center">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>About Crypto backers</h2>
+                    <h2>About Dig.IT</h2>
+                    <p class="small">Take a look at our site, or subscribe to our <a href="https://www.facebook.com/DigIT-577367065780498/">facebook page </a>for information about our events</p>
                     <p>We have stepped over the verge to a new way of living, where IT is not aiding us in isolated areas, but it is omnipresent.</p>
                     <p>And as with all new inventions and gadgets, we try to fill this magical fairy dust into every thinkable place.
-As with everything else that moves in unchartered territory, no precedence is made yet.
-And our fear is that big companies and national agencies have gotten into a gold rush for our data.
-</p>
+                        As with everything else that moves in unchartered territory, no precedence is made yet.
+                        And our fear is that big companies and national agencies have gotten into a gold rush for our data.
+                    </p>
                     <p>The digital privacy is threatened by both commercial as well as governmental surveillance. All digital information and traffic is collected, this is why it is important to elucidate in this matter. We host a conference to enlighten students about the data collection, about their digital privacy and how they can regain control of the same.</p>
-                    <p>Crypto backers is  an ITU based study group.
+                    <p>Dig.IT is  an ITU based study group.
                         <br>It arranges conferences and talks that centers around digital privacy and citizenship in this new age of IT</p>
                 </div>
             </div>
         </section>
 
-        <!-- Download Section -->
+        <section id="events" class="2016f text-xs-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                    <img id="logo" src="img/DIGIT.jpg" alt="Crypto-logo_banner"/>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2">
+                      
+                    <h2>Events fall 2016</h2>
+                    <p>This semester, we want to try something new: To have an event every Tuesday that centers around digital citizenship and privacy. Below is the list of events that we are hosting during the semester. Unless other is stated, they start at 17:00 in design lab.</p>
+                    <table id="one-column-emphasis">
+                        <thead><tr><th>Date</th><th>Subject</th><th>Speaker</th></tr></thead>
+                        <tbody>
+                            <tr><td>27/9</td><td>Intro to DigIT, Digital Adfærd, and digital data pollution. </td><td>Mikkel og Sofus</td></tr>
+                            <tr><td>4/10</td><td>Crypto 2.0</td><td>Various speakers</td></tr>
+                            <tr><td>11/10</td><td>Digital interactive workshop: Speculative game</td><td>Jan Redzsiz</td></tr>
+                            <tr><td>25/10</td><td>Pretty Good Privacy (PGP): How does it work? Workshop and showcase of Pretty good privacy</td><td>Ingmar Lippert</td></tr>
+                            <tr><td>1/11</td><td>Data ethics in medical data</td><td>TBA</td></tr>
+                            <tr><td>8/11</td><td>Workshop Signal protocol. How can I use it?? Starts at 18:00</td><td>Jacob Cholewa</td></tr>
+                            <tr><td>15/11</td><td>Keyrings: PKI, how does that work. Multi key encryption</td><td>Carsten Shurmann</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </section>
         <section  class="content-section text-xs-center">
             <div id="download" class="download-section">
                 <div class="container">
                     <div class="col-lg-8 col-lg-offset-2">
-                       
+
                         <img id="logo" src="img/Crypto-logo_banner.png" alt="Crypto-logo_banner"/>
-                         <h2 id="conf-date"><small>march 30th. 2016.</small></h2>
+                        <h2 id="conf-date"><small>march 30th. 2016.</small></h2>
                         <p>
                             This is the first, but hopefully no the last conference here at the IT University. 
                             The attention we have gathered is more than we could ever have hoped for!
@@ -151,9 +183,9 @@ And our fear is that big companies and national agencies have gotten into a gold
                     </div>
                     <div class="col-lg-6">
                         <p><strong>Other press</strong></p>
-                         <p ng-repeat="x in ctrl.otherlinks"><a href="{{x.link}}">{{x.description}}</a> in <small>{{x.from}}</small></p>
+                        <p ng-repeat="x in ctrl.otherlinks"><a href="{{x.link}}">{{x.description}}</a> in <small>{{x.from}}</small></p>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -163,7 +195,7 @@ And our fear is that big companies and national agencies have gotten into a gold
         <section id="contact" class="container content-section text-xs-center">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Contact Crypto backers</h2>
+                    <h2>Contact Dig.IT</h2>
 
                     <ul class="list-inline banner-social-buttons">
                         <li class="list-inline-item">
@@ -178,7 +210,7 @@ And our fear is that big companies and national agencies have gotten into a gold
         <!-- Footer -->
         <footer>
             <div class="container text-center">
-                <p>Copyright &copy; Crypto backers | Theme forked from <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a></p>
+                <p>Copyright &copy; Dig.IT | Theme forked from <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale</a></p>
             </div>
         </footer>
 
